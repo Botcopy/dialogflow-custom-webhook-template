@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "production": "botcopy-webhook-lhmh",
+    "test-engine": "botcopy-webhook-lhmh",
+    "newnew": "botcopy-webhook-lhmh"
+  }
+}
