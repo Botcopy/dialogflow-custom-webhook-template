@@ -23,7 +23,6 @@ Most of the work in Steps One and Two are finished with this template, but the s
 - Remove the Firebase-specific code from your fulfillment functions and paste in to the `/dialogflow` endpoint.
   - If you're viewing a fresh DF agent, copy everything from the `agent` variable declaration to the final intent map.
 - Some code in your intent functions will need to be refactored or added.
-  - Remove agent as a parameter from all intent functions.
   - `agent.context.get` becomes `agent.getContext`.
   - `agent.context.set` becomes `agent.setContext`.
   - After your final intentMap, add `agent.handleRequest(intentMap)`.
