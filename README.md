@@ -15,7 +15,6 @@ Most of the work in Steps One and Two are finished with this template, but the s
     "build": "tsc -p .",
     "tunnel": "ngrok http 5000"
   }
-- Create `server.ts`, `app.ts`, and `cloud.ts` in the `dist` folder.
 
 ## Step Two - Create an Express Server
 - Import all required packages from actions-on-google, dialogflow-fulfillment, and express in `app.ts` file.
