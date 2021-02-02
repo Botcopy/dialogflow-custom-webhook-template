@@ -12,12 +12,14 @@
     "deploy-cf": "firebase deploy --only functions"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.168",
     "actions-on-google": "^2.13.0",
     "dialogflow-fulfillment": "dialogflow/dialogflow-fulfillment-nodejs",
     "express": "^4.17.1",
     "firebase-admin": "^9.2.0",
     "firebase-functions": "^3.11.0",
     "firebase-tools": "^8.11.2",
+    "lodash": "^4.17.20",
     "ts-node": "^9.0.0"
   },
   "devDependencies": {
